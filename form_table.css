@@ -1,0 +1,118 @@
+body {
+    /*height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Arial', sans-serif;*/
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    /*display: flex;*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px; /* Add this line to provide spacing below the form */
+}
+
+.container {
+    max-width: 800px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    overflow-x: auto; /* Add this line to enable horizontal scrolling for the table */
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold; /* Add this line to make the text bold */
+}
+
+td, th {
+    border: 1px solid #3498db;
+    padding: 10px; /* Increase padding for better visibility */
+    text-align: left;
+    background-color: maroon;
+    color: yellow;
+    width: 10%;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+tr {
+    background-color: #ecf0f1;
+    transition: background-color 0.3s ease;
+}
+
+tr:hover {
+    background-color: #bdc3c7;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: maroon;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid maroon;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: #e74c3c;
+    color: white;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 50%; /* Set a fixed width */
+    margin: 0 auto; /* Center the form horizontally */
+    color: black;
+}
+
+form div {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+form input[type="text"],
+form input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+form input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
